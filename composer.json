@@ -1,0 +1,14 @@
+{
+    "name": "anton/blocksy-db-migration",
+    "description": "This plugin will allow you to correctly migrate your database from Blocksy v1 to v2.",
+    "type": "plugin",
+    "require": {
+        "freemius/blocksy-companion-pro": ">=1.9.11"
+    },
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "CreativeThemes"
+        }
+    ]
+}
