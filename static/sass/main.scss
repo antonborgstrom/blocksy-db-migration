@@ -1,0 +1,76 @@
+.blocksy-migration-wrapper {
+	background: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    margin-inline-end: 20px;
+	font-size: 14px;
+	line-height: 1.3;
+	max-width: 1200px;
+
+	h3 {
+		font-size: 18px;
+		line-height: 1.4;
+		margin: 0;
+	}
+
+	h4 {
+		font-size: 16px;
+		line-height: 1.4;
+		margin: 0 0 15px 0;
+	}
+
+	p {
+		font-size: inherit;
+		line-height: inherit;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.button {
+		min-height: 35px;
+		padding: 0 15px;
+		font-size: 14px;
+	}
+
+    .ct-migrator-info {
+    	display: grid;
+		grid-template-columns: min-content 1fr;
+		align-items: center;
+		gap: 24px;
+		margin-bottom: 40px;
+
+		.ct-migrator-info-icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 50px;
+			height: 50px;
+			color: #fff;
+			background: #1E1E1E;
+			border-radius: 2px;
+		}
+
+		p {
+			margin:	5px 0 0 0;
+		}
+    }
+
+    .ct-table-container {
+    	margin-inline: -40px;
+    	padding: 40px;
+    	border-block: 1px solid #efefef;
+
+    	ul {
+    		margin: 0 0 30px 0;
+    	}
+    }
+
+    .ct-buttons-group {
+    	display: flex;
+    	flex-wrap: wrap;
+    	gap: 15px;
+		margin-top: 40px;
+    }
+}
